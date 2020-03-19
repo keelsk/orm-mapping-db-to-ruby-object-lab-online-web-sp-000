@@ -62,5 +62,9 @@ class Student
     end.first
   end
   
+  def self.all
+    sql = <<-SQL
+    SQL
+  end
   
 end
